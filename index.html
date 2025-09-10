@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco de Imágenes</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 5px;
+      right: 5px;
+      background-color: #25D366;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    .whatsapp-float img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>"INTERNET PACO"</h1>
+    <h2>RECARGA POR ID</h2>
+  </header>
+  <section class="gallery">
+    <div class="image-card">
+      <img src="img/Free1.gif" alt="LA RECARGA ES POR ID" width="100">
+    </div>
+    <div class="image-card">
+      <img src="img/Bood Stike.png" alt="LA RECARGA ES POR ID">
+    </div>
+    <div class="image-card">
+      <img src="img/War Robots.png" alt="Recarga por ID">
+    </div>
+    <div class="image-card">
+      <img src="img/Free indonecia.png" alt="Recarga por ID">
+    </div>
+     <div class="image-card">
+      <img src="img/Pugb mobile.png" alt="Recarga por ID">
+    </div>
+      <div class="image-card">
+      <img src="img/Mobile Legends.png" alt="Recarga por ID">
+    </div>
+  <div class="image-card">
+      <img src="img/Call of duty.png" alt="Free" width="100">
+    </div>
+  </section>
+
+   <header>
+    <h2>RECARGA POR CUENTA DIRECTA</h2>
+    <h>Estos servicios se necesita acceso a su cuenta de inicio de sesión (GMAIL,FACEBOOK, EA SPORT O USUARIO Y CONTRASEÑA)</h>
+  </header>
+    <section class="gallery">
+    <div class="image-card">
+      <img src="img/roblox.png" alt="Roblox">
+    </div>
+    <div class="image-card">
+      <img src="img/Tiktok.png" alt="Tiktok">
+    </div>
+    <div class="image-card">
+      <img src="img/Steam.png" alt="Steam">
+    </div>
+    <div class="image-card">
+      <img src="img/FC25.png" alt="FC25">
+    </div>
+    <div class="image-card">
+      <img src="img/clash royale.png" alt="ROyale">
+    </div>
+    <div class="image-card">
+      <img src="img/Epic Game.png" alt="Epic Game">
+    </div>
+    <div class="image-card">
+      <img src="img/Brawl Stars.png" alt="Brawl">
+    </div>
+      <div class="image-card">
+      <img src="img/BINANCE.png" alt=".">
+    </div>
+  </section>
+
+   <header>
+    <h2>SERVICIOS DE STREAMING </h2>
+    <h></h>
+  </header>
+    <section class="gallery">
+    <div class="image-card">
+      <img src="img/Spotify.png" alt="spotify" width="100">
+    </div>
+    <div class="image-card">
+      <img src="img/Crunchyroll.png" alt="Crunchyroll">
+    </div>
+    <div class="image-card">
+      <img src="img/HBO MAX.png" alt="Playa tropical">
+    </div>
+      <div class="image-card">
+      <img src="img/Netflix.png" alt="Playa tropical">
+    </div>
+</a>
+  </section>
+
+   <header>
+    <h1>Realizamos tus compras en las siguientes paginas</h1>
+    <h2>Cotiza Sin Compromiso</h2>
+  </header>
+    <section class="gallery">
+<div class="image-card">
+  <a href="https://www.eneba.com/latam/" target="_blank" onclick="return confirm('¿visitar Eneba?')">
+    <img src="img/Eneba.png" alt=".">
+  </a>
+</div>
+<div class="image-card">
+  <a href="https://www.mtcgame.com/es-ES" target="_blank" onclick="return confirm('¿visitar MTCGAME?')">
+    <img src="img/MTCGAME.png" alt=".">
+  </a>
+</div>
+<div class="image-card">
+  <a href="https://play.google.com/store/games?hl=es_419" target="_blank" onclick="return confirm('¿visitar Play Store?')">
+    <img src="img/Play Store.png" alt=".">
+  </a>
+</div>
+<div class="image-card">
+  <a href="https://hotmart.com/es/marketplace" target="_blank" onclick="return confirm('¿visitar Hotmart?')">
+    <img src="img/Hotmart.png" alt=".">
+  </a>
+</div>
+  </section>
+
+  <!-- Modal para imagen ampliada -->
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+
+  <footer>
+    <p>&copy; Pregunte sin compromiso a nuestro whatsapp</p>
+  </footer>
+  <script src="script.js"></script>
+
+
+  <!-- Botón flotante con imagen -->
+  <a href="https://wa.me/50245700306?text=Hola%20quiero%20más%20información" 
+     class="whatsapp-float" 
+     target="_blank" 
+     title="Chatea por WhatsApp">
+    <img src="img/Wat.png" alt="WhatsApp">
+  </a>
+</body>
+</html>
